@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# OS
+.DS_Store
+
+# Dataset (123MB — no subir al repo)
+Dataset_prueba/
+
+# Datos intermedios
+data/
+
+# Outputs (ya embebidos en los notebooks)
+outputs/
+
+# Presentacion (documento interno)
+presentacion_ejecutiva.md
