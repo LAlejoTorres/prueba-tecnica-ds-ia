@@ -15,8 +15,9 @@ wheels/
 # Dataset (123MB — no subir al repo)
 Dataset_prueba/
 
-# Datos intermedios
-data/
+# Datos intermedios (excepto knowledge_base.json que es entregable del Punto 6)
+data/*
+!data/knowledge_base.json
 
 # Outputs (ya embebidos en los notebooks)
 outputs/

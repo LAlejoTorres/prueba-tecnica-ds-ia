@@ -14,6 +14,9 @@ notebooks/
   06_knowledge_base_rag.ipynb           # Punto 6: Base de conocimiento simulada (JSON)
   07_ai_agent_system_prompts.ipynb      # Punto 7: 3 System Prompts hiper-personalizados
 
+data/
+  knowledge_base.json                   # Punto 6: Base de conocimiento en JSON (entregable)
+
 outputs/                                # Imagenes, CSVs y artefactos generados
 
 pyproject.toml                          # Dependencias del proyecto (uv)

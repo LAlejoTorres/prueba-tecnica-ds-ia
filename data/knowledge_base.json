@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_from": "Brazilian E-Commerce Dataset (2016-2018)",
+    "purpose": "Product knowledge base for AI Agent (RAG retrieval context)",
+    "total_products": 3,
+    "data_source": "Real metrics extracted from delivered orders dataset",
+    "segment_taxonomy": [
+      "Loyal Champions",
+      "Premium Buyers",
+      "Mid-Value Buyers",
+      "Low-Engagement Buyers"
+    ],
+    "rag_ready_fields": [
+      "name",
+      "category",
+      "description",
+      "highlights",
+      "tags"
+    ]
+  },
+  "products": [
+    {
+      "id": "bb50f2e236e5eea0100680137654686c",
+      "name": "Premium Health & Beauty Essential Kit",
+      "category": "Health & Beauty",
+      "description": "Our #1 revenue-generating product in the Health & Beauty category — the highest-grossing individual product across the entire catalog with R$ 63,560 in total sales. Purchased by 194 verified buyers with an average rating of 4.2/5.0 (81% positive reviews). Priced at R$ 327.63, it sits at the premium tier of the category — a choice for customers who prioritize quality in their personal care routine.",
+      "highlights": [
+        "#1 best-seller by revenue in Health & Beauty (R$ 63,560 total)",
+        "194 verified purchases with 4.2/5.0 average rating",
+        "81% positive reviews (59% rated 5 stars)",
+        "Price range: R$ 325.00 – R$ 330.00"
+      ],
+      "pricing": {
+        "average_price": 327.63,
+        "price_range": {
+          "min": 325.0,
+          "max": 330.0
+        },
+        "currency": "BRL",
+        "average_freight": 19.06
+      },
+      "customer_reviews": {
+        "average_score": 4.21,
+        "total_reviews": 188,
+        "pct_positive": 80.8,
+        "pct_5_star": 58.5
+      },
+      "sales_metrics": {
+        "units_sold": 194,
+        "total_revenue": 63560.0,
+        "category_rank": 1
+      },
+      "tags": [
+        "best-seller",
+        "premium",
+        "health",
+        "beauty",
+        "skincare",
+        "self-care",
+        "gift-idea"
+      ],
+      "target_segments": [
+        "Loyal Champions",
+        "Premium Buyers"
+      ],
+      "retrieval_text": "Premium Health & Beauty Essential Kit. Category: Health & Beauty. Our #1 revenue-generating product in the Health & Beauty category — the highest-grossing individual product across the entire catalog with R$ 63,560 in total sales. Purchased by 194 verified buyers with an average rating of 4.2/5.0 (81% positive reviews). Priced at R$ 327.63, it sits at the premium tier of the category — a choice for customers who prioritize quality in their personal care routine. Highlights: #1 best-seller by revenue in Health & Beauty (R$ 63,560 total) 194 verified purchases with 4.2/5.0 average rating 81% positive reviews (59% rated 5 stars) Price range: R$ 325.00 – R$ 330.00. Tags: best-seller premium health beauty skincare self-care gift-idea."
+    },
+    {
+      "id": "53b36df67ebb7c41585e8d54d6772e08",
+      "name": "Signature Watch & Gift Collection Piece",
+      "category": "Watches & Gifts",
+      "description": "The top-selling product in our Watches & Gifts collection — the #2 revenue category on the platform. With 321 units sold and R$ 37,455 in total revenue, this piece has become the go-to choice for customers seeking gifts and accessories. Rated 4.2/5.0 across 300 reviews (82% positive). At an average price of R$ 116.68, it offers strong perceived value in the gifting segment — accessible enough for a wide audience while maintaining the premium feel customers expect.",
+      "highlights": [
+        "Top-selling product in Watches & Gifts (R$ 37,455 revenue)",
+        "321 units sold — highest volume in the category",
+        "4.2/5.0 average rating (82% positive)",
+        "Average price R$ 116.68 — strong value in the gift segment"
+      ],
+      "pricing": {
+        "average_price": 116.68,
+        "price_range": {
+          "min": 99.9,
+          "max": 179.9
+        },
+        "currency": "BRL",
+        "average_freight": 7.04
+      },
+      "customer_reviews": {
+        "average_score": 4.25,
+        "total_reviews": 300,
+        "pct_positive": 82.3,
+        "pct_5_star": 62.0
+      },
+      "sales_metrics": {
+        "units_sold": 321,
+        "total_revenue": 37454.63,
+        "category_rank": 1
+      },
+      "tags": [
+        "best-seller",
+        "watch",
+        "gift",
+        "accessory",
+        "celebration",
+        "affordable-luxury"
+      ],
+      "target_segments": [
+        "Loyal Champions",
+        "Premium Buyers",
+        "Mid-Value Buyers"
+      ],
+      "retrieval_text": "Signature Watch & Gift Collection Piece. Category: Watches & Gifts. The top-selling product in our Watches & Gifts collection — the #2 revenue category on the platform. With 321 units sold and R$ 37,455 in total revenue, this piece has become the go-to choice for customers seeking gifts and accessories. Rated 4.2/5.0 across 300 reviews (82% positive). At an average price of R$ 116.68, it offers strong perceived value in the gifting segment — accessible enough for a wide audience while maintaining the premium feel customers expect. Highlights: Top-selling product in Watches & Gifts (R$ 37,455 revenue) 321 units sold — highest volume in the category 4.2/5.0 average rating (82% positive) Average price R$ 116.68 — strong value in the gift segment. Tags: best-seller watch gift accessory celebration affordable-luxury."
+    },
+    {
+      "id": "99a4788cb24856965c36a24e339b6058",
+      "name": "Luxury Bed & Bath Textile Set",
+      "category": "Bed, Bath & Table",
+      "description": "The volume champion of our #1 category by units sold — Bed, Bath & Table. With 477 units sold, this product leads the largest category in the catalog by a significant margin. It has generated R$ 42,050 in revenue with an average rating of 4.0/5.0 across 430 reviews. At R$ 88.15 average price, it represents our most accessible entry point among the top sellers — ideal for first-time buyers and customers seeking quality home essentials at a practical price.",
+      "highlights": [
+        "#1 by volume in the largest product category (477 units sold)",
+        "R$ 42,050 total revenue — consistent demand",
+        "4.0/5.0 average rating (71% positive)",
+        "Most accessible top seller at R$ 88.15 average price"
+      ],
+      "pricing": {
+        "average_price": 88.15,
+        "price_range": {
+          "min": 74.0,
+          "max": 89.9
+        },
+        "currency": "BRL",
+        "average_freight": 16.47
+      },
+      "customer_reviews": {
+        "average_score": 3.95,
+        "total_reviews": 430,
+        "pct_positive": 71.4,
+        "pct_5_star": 49.8
+      },
+      "sales_metrics": {
+        "units_sold": 477,
+        "total_revenue": 42049.66,
+        "category_rank": 1
+      },
+      "tags": [
+        "best-seller",
+        "home",
+        "bath",
+        "bed",
+        "textiles",
+        "comfort",
+        "affordable"
+      ],
+      "target_segments": [
+        "Loyal Champions",
+        "Premium Buyers",
+        "Mid-Value Buyers",
+        "Low-Engagement Buyers"
+      ],
+      "retrieval_text": "Luxury Bed & Bath Textile Set. Category: Bed, Bath & Table. The volume champion of our #1 category by units sold — Bed, Bath & Table. With 477 units sold, this product leads the largest category in the catalog by a significant margin. It has generated R$ 42,050 in revenue with an average rating of 4.0/5.0 across 430 reviews. At R$ 88.15 average price, it represents our most accessible entry point among the top sellers — ideal for first-time buyers and customers seeking quality home essentials at a practical price. Highlights: #1 by volume in the largest product category (477 units sold) R$ 42,050 total revenue — consistent demand 4.0/5.0 average rating (71% positive) Most accessible top seller at R$ 88.15 average price. Tags: best-seller home bath bed textiles comfort affordable."
+    }
+  ]
+}
